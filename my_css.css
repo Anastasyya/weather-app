@@ -1,62 +1,77 @@
 /*.border{border: 1px solid white;}*/
 
-
-
-/*header*/
-
-#loc_info > li{
-  display: inline-block;
+html {
+  height: 100%;overflow: hidden;
 }
-
-#options > li{
-  display: inline-block;
+body {
+ height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-/*layout*/
-
-hgroup, nav,section{
-    display: inline-block;
-}
-
 
 #pagewrap {
-	width: 980px;
-	margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
 
-hgroup{
-	width: 700px;
+/*-----header-----*/
 
+header {
+  display:flex;
+}
+hgroup {
+  width: 60%;
+  align-self: center;
+}
+nav{
+  width: 40%;
+  align-self: stretch;
+}
+#options {
+  text-align: right;
 }
 
-nav {
-	width: 180px;
-
+ul {
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 70%;
+  margin: auto;
+}
+ul > li{
+  display: inline-block;
 }
 
+/*----main section----*/
 
-.icon {display: inline-block;
-	width: 380px;
-  vertical-align: top;
-}
-.main_text {display: inline-block;
-	width: 500px;
 
+
+.main {
+  display:flex;
 }
 
-/*icon*/
-
+.icon {
+  width: 35%;
+  align-self: center;
+  align-self: flex-start;
+}
 .icon > p {
   text-align: right;
-
+}
+.main_text {
+  width: 65%;
+  align-self: center;
 }
 
-/*backgrounds*/
-html {height: 100%;overflow: hidden;}
-body {height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;}
+.degrees{
+  margin: 9rem 0 2.06rem 0;
+}
+.description {
+  margin: 0rem 0 2.8rem 0;
+}
+
+/*-----backgrounds-------*/
+
 
 .gradient_default{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c7d6ea+0,e8d3d4+100 */
 background: #c7d6ea; /* Old browsers */
@@ -126,8 +141,7 @@ background: linear-gradient(135deg,  #415680 0%,#999abf 60%,#ffefcd 100%); /* W3
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415680', endColorstr='#ffefcd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-
-/*fonts*/
+/*----fonts----*/
 body {font-family: 'Lato', sans-serif;
 color: white;
 font-size: 1.5rem;
@@ -142,56 +156,50 @@ line-height: 100%;
 text-transform: uppercase;
 font-weight: bold;
 }
-.tr{opacity: 0.6;}
-/*margins*/
+.tr{
+  opacity: 0.6;
+}
 
-/*hgroup{margin-top: 0.6rem;}*/
-ul {padding: 0rem 0rem 0rem 0rem;
-margin: 0rem 0rem 0rem 0rem;}
-.degrees{margin: 9rem 0 2.06rem 0;}
-.description {margin: 0rem 0 2.8rem 0;}
-hr {color:white;}
+/*------elements-----*/
 
+hr {
+  color:white;
+}
 .ruler {width: 90%;
-margin-left:0;
+  margin-left:0;
   margin-right: auto;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+.icon{
+  margin: 7rem 1rem 0 0;
+}
 
-.icon{margin: 7rem 1rem 0 0;}
-
-
-/*links*/
+/*------links---------*/
 button {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: 1px solid Transparent;
-    padding: 3rem 1rem 1rem 1rem;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-      font-size: 1.5rem;
-      color: white;
-      font-family: 'Lato', sans-serif;}
+  background-color: rgba(255, 255, 255, 0.2);
+  background-repeat:no-repeat;
+  border: 1px solid Transparent;
+  padding: 3rem 1rem 1rem 1rem;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
 
 button:hover {
-    border: 1px solid white;
-    cursor:pointer;
-
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor:pointer;
 }
-
 
 button:focus {
-    border: 1px solid white;
-    cursor:pointer;
-
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor:pointer;
 }
 
-
-
 button:active {
-    border: 1px solid white;
-    cursor:pointer;
-
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor:pointer;
 }

@@ -1,97 +1,56 @@
-@media screen and (max-width: 711px) {
- body{width: auto;}
-
-	#pagewrap {
+@media screen and (max-width: 701px) {
+body{
+  width: auto;
+}
+#pagewrap {
 		width: 95%;
-
-	}
-
-	#header{position: relative;
-	width: inherit;}
-
-	hgroup {display: block;
-	position: absolute;
-	top: 7rem;
-	left: 2rem;
-		}
-
-		nav {display: block;
-				position: absolute;
-				left:60%;
-			}
-			#loc_info > li{
-			  display: block;
-				margin: 0.5rem 0;
-
-			}
-
-
-			.main{position: relative;
-				width: inherit;
-			}
-			.main_text{	width: inherit;
-			  text-align: center;}
-
-
-			.icon{width: 100%;
-				margin-top: 10rem;
-		}
-			.icon > p {
-			  text-align: center;
-
-			}
-		.degrees {margin-top: 0rem;
-		font-size: 5rem;}
-.description {font-size: 3rem;}
-
-
-
-.ruler{width: 90%;
-margin-left:auto;
-margin-right:auto;}
+}
+.main {
+  flex-direction: column;
+}
+.main_text{
+	text-align: center;
+  width: 100%;
+}
+.icon{
+  width: 100%;
+	margin-top: 2rem;
+}
+.icon > p {
+	text-align: center;
+}
+.degrees {
+  margin-top: 0rem;
+	font-size: 5rem;
+}
+.description {
+  font-size: 3rem;
+}
+.ruler{
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
 }
 
 
-@media screen and (max-width: 980px) and (min-width: 712px) {
+@media screen and (max-width: 980px) and (min-width: 700px) {
 
-	#pagewrap {
-		width: 95%;
-	}
-	#header{position: absolute;
-	width: inherit;
+#pagewrap {
+  width: 95%;
 }
-
-	hgroup {width: auto;
-		float:left;
-		margin-top: 3.5rem;
-		}
-
-		nav {width: auto;
-			float: right;
-			}
-
-			.main{position: relative;
-			width: inherit;
-			margin-top: 4rem;
-		}
-
-			.icon{
-				width:30%;
-				margin-top: 7rem;
-
-
-			}
-			.main_text{
-				width: 60%;
-
-
-			}
-
-			li{
-			  letter-spacing:-0.2px;
-			}
-
-      .ruler{width: 90%;
-      margin-left:0;
-      }
+.icon{
+  width:30%;
+  margin-top: 7rem;
+}
+.main_text{
+  width: 60%;
+}
+li{
+	letter-spacing:-0.2px;
 	}
+.ruler{
+  width: 90%;
+  margin-left:0;
+}
+}

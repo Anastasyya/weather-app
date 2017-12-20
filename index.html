@@ -8,40 +8,40 @@
  <link rel="stylesheet" href="my_css.css">
 <link href="media-queries.css" rel="stylesheet" type="text/css">
  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
-
 </head>
 <body class="gradient_default">
   <div id="pagewrap">
-
-
-
-        <header id="header" class="border">
-
-          <hgroup class="border">
-            <ul id="loc_info">
-          			<li class="tr city">&nbsp;&nbsp;</li>
-                <li class="time"></li>
-              </ul>
-            </hgroup><nav class="border">
-                <ul id="options">
-          				<li><button id="c">C</button></li>
-                  <li><button id="f">F</button></li>
-          			</ul>
-		</nav>
-
-        </header>
-
-
-<section class="main border">
-
-<div class="icon"><p><img src="icons_w/rain.png" style="width:138px;" id="my_image"></p></div><div class="main_text"><div class="degrees"></div> <div class="description tr"></div>
-<p><span class="tr">Feels like </span><span class="feels_like"></span></p>
-<div class="ruler border"><hr class="tr"></div>
-<p><span class="tr">Humidity </span><span class="humidity"></span> &nbsp;&nbsp;<span class="tr">Wind </span><span class="wind"></span> km/h</p>
-<p><span class="tr">Visibility </span><span class="visibility"></span> &nbsp;&nbsp;<span class="tr">UV </span><span class="uv"></span></p></div>
-
-</section>
-
+    <header id="header">
+      <hgroup>
+        <ul id="loc_info">
+      			<li class="tr city">&nbsp;&nbsp;</li>
+            <li class="time"></li>
+            <li id="timer">11:00 AM</li>
+          </ul>
+        </hgroup>
+        <nav>
+            <ul id="options">
+      				<li><button id="c">C</button></li>
+              <li><button id="f">F</button></li>
+      			</ul>
+        </nav>
+    </header>
+     <section class="main">
+       <div class="icon">
+         <p><img src="icons_w/rain.png" style="width:138px;" id="my_image"></p>
+       </div>
+       <div class="main_text">
+         <div class="degrees"></div>
+         <div class="description tr"></div>
+         <p><span class="tr">Feels like </span><span class="feels_like"></span></p>
+         <div class="ruler">
+           <hr class="tr">
+         </div>
+        <p><span class="tr">Humidity </span><span class="humidity"></span> &nbsp;&nbsp;<span class="tr">Wind </span><span class="wind"></span> km/h</p>
+        <p><span class="tr">Visibility </span><span class="visibility"></span> &nbsp;&nbsp;<span class="tr">UV </span><span class="uv"></span></p>
+      </div>
+    </section>
 </div>
+<script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>
